@@ -1,4 +1,5 @@
 import random
+import matplotlib
 Rock = 1
 Paper = 2
 Scissors = 3
@@ -94,3 +95,9 @@ while True:
     else:
         print("Not an option")
         False
+
+for i in range(96):
+    random_number = random.randint(1,5)
+    print(random_number)
+    
+print("Tenski save me")
